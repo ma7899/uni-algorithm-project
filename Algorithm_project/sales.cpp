@@ -6,6 +6,10 @@ sales::sales(QWidget *parent) :
     ui(new Ui::sales)
 {
     ui->setupUi(this);
+    ui->nearmarket->setStyleSheet("background-image: url(:/resources/Images/map.png);");
+    ui->money_buy->setStyleSheet("background-image: url(:/resources/Images/money.jpg);");
+    ui->search->setStyleSheet("background-image: url(:/resources/Images/search.jpg);");
+
 }
 
 sales::~sales()

@@ -8,10 +8,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QIcon des1(":/resources/Images/Carpet_9.png);");
-    ui->Desing_but->setIcon(des1);
-    ui->Desing_but->setIconSize(QSize(236,513));
-    //236 513
+    ui->Desing_but->setStyleSheet("background-image: url(:/resources/Images/Desing (2).jpg);");
+    ui->pushButton_5->setStyleSheet("background-image: url(:/resources/Images/sales.jpg)");
 }
 
 MainWindow::~MainWindow()

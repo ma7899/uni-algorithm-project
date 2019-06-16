@@ -5,7 +5,6 @@
 #include <QFileDialog>
 #include <design.h>
 #include <mainwindow.h>
-
 namespace Ui {
 class ChangeDes;
 }
@@ -16,10 +15,15 @@ class ChangeDes : public QWidget
 
 public:
     explicit ChangeDes(QWidget *parent = 0);
+    QImage image,filterimage;
     ~ChangeDes();
 
 private slots:
     void on_chooseImage_clicked();
+
+    void on_back_clicked();
+
+    void on_Change_clicked();
 
 private:
     Ui::ChangeDes *ui;

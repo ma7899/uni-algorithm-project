@@ -6,6 +6,9 @@ Design::Design(QWidget *parent) :
     ui(new Ui::Design)
 {
     ui->setupUi(this);
+    ui->changedes->setStyleSheet("background-image: url(:/resources/Images/change.jpg);");
+    ui->newdes->setStyleSheet("background-image: url(:/resources/Images/newdes.jpg);");
+
 }
 
 Design::~Design()
