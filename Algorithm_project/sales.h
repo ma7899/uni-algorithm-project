@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <mainwindow.h>
+#include <money.h>
 
 namespace Ui {
 class sales;
@@ -19,6 +20,8 @@ public:
 private slots:
 
     void on_back_clicked();
+
+    void on_money_buy_clicked();
 
 private:
     Ui::sales *ui;

@@ -24,3 +24,10 @@ void sales::on_back_clicked()
     MainWindow* main = new MainWindow;
     main->show();
 }
+
+void sales::on_money_buy_clicked()
+{
+    hide();
+    money* mon = new money;
+    mon->show();
+}

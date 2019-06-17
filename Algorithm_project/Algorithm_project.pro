@@ -28,19 +28,25 @@ SOURCES += \
         mainwindow.cpp \
     design.cpp \
     sales.cpp \
-    changedes.cpp
+    changedes.cpp \
+    money.cpp \
+    newdesing.cpp
 
 HEADERS += \
         mainwindow.h \
     design.h \
     sales.h \
-    changedes.h
+    changedes.h \
+    money.h \
+    newdesing.h
 
 FORMS += \
         mainwindow.ui \
     design.ui \
     sales.ui \
-    changedes.ui
+    changedes.ui \
+    money.ui \
+    newdesing.ui
 
 RESOURCES += \
     pictures.qrc
