@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <mainwindow.h>
 #include <money.h>
+#include <nearest.h>
 
 namespace Ui {
 class sales;
@@ -22,6 +23,8 @@ private slots:
     void on_back_clicked();
 
     void on_money_buy_clicked();
+
+    void on_nearmarket_clicked();
 
 private:
     Ui::sales *ui;

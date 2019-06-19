@@ -30,7 +30,8 @@ SOURCES += \
     sales.cpp \
     changedes.cpp \
     money.cpp \
-    newdesing.cpp
+    newdesing.cpp \
+    nearest.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -38,7 +39,8 @@ HEADERS += \
     sales.h \
     changedes.h \
     money.h \
-    newdesing.h
+    newdesing.h \
+    nearest.h
 
 FORMS += \
         mainwindow.ui \
@@ -46,7 +48,8 @@ FORMS += \
     sales.ui \
     changedes.ui \
     money.ui \
-    newdesing.ui
+    newdesing.ui \
+    nearest.ui
 
 RESOURCES += \
     pictures.qrc

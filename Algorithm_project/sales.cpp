@@ -31,3 +31,10 @@ void sales::on_money_buy_clicked()
     money* mon = new money;
     mon->show();
 }
+
+void sales::on_nearmarket_clicked()
+{
+    hide();
+    nearest* near=new nearest;
+    near->show();
+}

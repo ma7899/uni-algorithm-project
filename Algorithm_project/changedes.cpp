@@ -55,8 +55,6 @@ void ChangeDes::on_Change_clicked()
         }
     }
 
-  {
-
     long long int matrix[300][400];
 
 
@@ -67,9 +65,8 @@ void ChangeDes::on_Change_clicked()
                 matrix[i][j] = qGray(image.pixel(i,j));
             }
         }
-   }
 
-    {
+
 
       long long int filtermatrix[300][400];
 
@@ -81,7 +78,6 @@ void ChangeDes::on_Change_clicked()
                   filtermatrix[i][j] = qGray(filterimage.pixel(i,j));
               }
           }
-     }
 
 }
 

@@ -24,6 +24,8 @@ private slots:
 
     void on_calculate_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::money *ui;
 };

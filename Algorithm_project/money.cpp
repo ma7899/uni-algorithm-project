@@ -27,6 +27,11 @@ void money::on_back_clicked()
 
 void money::on_calculate_clicked()
 {
+
+}
+
+void money::on_pushButton_clicked()
+{
     QString answer="";
     QList <int> index;
     int ind=0;
@@ -47,5 +52,5 @@ void money::on_calculate_clicked()
              ind++;
 
         }
-    ui->label_6->setText(answer);
+    ui->answer->setText(answer);
 }
